@@ -1,0 +1,191 @@
+/******** THE DEFAULT DIMANSIONS/TRANSITIONS *********/
+:root {
+  --height-header: 90px;
+  --margin-T-main: var(--height-header);
+  --height-section: calc(100vh - var(--height-header));
+  --general-padding: 0 20px;
+  --dropMenu-padding: 20px;
+  --footer-padding: 20px;
+}
+
+/******** THE DEFAULT COLORS *********/
+:root {
+  /* HEADER */
+  /* header */
+  --bc-header: #363535;
+  /* logo */
+  --c-border-logo: #363535;
+  /* link */
+  --c-link: #ffffff;
+  --c-link-hover: #bda758;
+  --c-link-active: #bda758;
+  /* search */
+  --bc-search: #ffffff;
+  --c-placeholder-search: #363535;
+  --bc-search-button: #363535;
+  --bc-search-button-hover: #25405f;
+  --c-search-icon: #ffffff;
+  /* language */
+  --bc-language: #ffffff;
+  --c-language-name: #363535;
+  --c-language-icon: #363535;
+  --bc-language-hover: #363535;
+  --c-language-hover: #ffffff;
+  --bc-language-border: #363535;
+  /* theme */
+  --bc-theme: #ffffff;
+  --bc-theme-icon: #363535;
+  --c-theme-icon: #ffffff;
+  /* social call */
+  --bc-social-call: #ffffff;
+  --c-social-call: #363535;
+  --bc-alert: #363535fc;
+  --c-alert: #000000;
+  --c-border-alert: #000000;
+  /* menu */
+  --toggle-menu-color: #ffffff;
+  /* MAIN */
+  /* primary section */
+  --bc-primary-section: #363535;
+  --c-primary-section: #c5ad55;
+  /* secondary section */
+  --bc-secondary-section: #e6dcdc;
+  --c-secondary-section: #363535;
+  /* FOOTER */
+  --bc-footer: #363535;
+  --c-footer: #ffffff;
+  /* SCROLL BAR */
+  --bc-scrollbar-button: #363535;
+  --bc-scrollbar-button-hover: #363535;
+  --bc--scrollbar-track: #ada9a9;
+  --bc--scrollbar-track-hover: #ada9a9;
+  --bc-scrollbar-thumb: #363535;
+  --bc-scrollbar-thumb-hover: #363535;
+  /* selection */
+  --bc-primary-selection: #ffffff;
+  --c-primary-selection: #363535;
+  --bc-secondary-selection: #363535;
+  --c-secondary-selection: #ffffff;
+  /* caret */
+  --c-caret: #363535;
+}
+
+body:has(.dark) {
+  /* HEADER */
+  /* header */
+  --bc-header: #181818;
+  /* logo */
+  --c-border-logo: #181818;
+  /* link */
+  --c-link: #ffffff;
+  --c-link-hover: #bda758;
+  --c-link-active: #bda758;
+  /* search */
+  --bc-search: #ffffff;
+  --c-placeholder-search: #181818;
+  --bc-search-button: #181818;
+  --bc-search-button-hover: #363535;
+  --c-search-icon: #ffffff;
+  /* language */
+  --bc-language: #ffffff;
+  --c-language-name: #181818;
+  --c-language-icon: #181818;
+  --bc-language-hover: #181818;
+  --c-language-hover: #ffffff;
+  --bc-language-border: #6d6666;
+  /* theme */
+  --bc-theme: #ffffff;
+  --bc-theme-icon: #181818;
+  --c-theme-icon: #ffffff;
+  /* social call */
+  --bc-social-call: #ffffff;
+  --c-social-call: #181818;
+  --bc-alert: #181818fc;
+  --c-alert: #c7c1c1;
+  --c-border-alert: #ffffff;
+  /* menu */
+  --toggle-menu-color: #ffffff;
+  /* MAIN */
+  /* primary section */
+  --bc-primary-section: #181818;
+  --c-primary-section: #ffffff;
+  /* secondary section */
+  --bc-secondary-section: #e6dcdc;
+  --c-secondary-section: #181818;
+  /* FOOTER */
+  --bc-footer: #181818;
+  --c-footer: #ffffff;
+  /* SCROLL BAR */
+  --bc-scrollbar-button: #181818;
+  --bc-scrollbar-button-hover: #181818;
+  --bc-scrollbar-track: #ada9a9;
+  --bc-scrollbar-track-hover: #ada9a9;
+  --bc-scrollbar-thumb: #181818;
+  --bc-scrollbar-thumb-hover: #181818;
+  /* selection */
+  --bc-primary-selection: #ffffff;
+  --c-primary-selection: #181818;
+  --bc-secondary-selection: #181818;
+  --c-secondary-selection: #ffffff;
+  /* caret */
+  --c-caret: #fff;
+}
+
+/********************************** Scrollbar Styling **********************************/
+/* ::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-button {
+  background: var(--bc-scrollbar-button);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+::-webkit-scrollbar-button:hover {
+  background: var(--hover-link);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bc-scrollbar-track);
+}
+
+::-webkit-scrollbar-track:hover {
+  background: var(--bc-scrollbar-track-hover);
+} */
+
+/* Style the track piece (the part of the track not covered by the thumb) track and track:hover */
+/*::-webkit-scrollbar-track-piece {
+  background: #c5bfbf;  Background color of the track piece 
+}*/
+/* 
+::-webkit-scrollbar-thumb {
+  background: var(--bc-scrollbar-thumb);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bc-scrollbar-thumb-hover);
+} */
+
+/*********************************** THE MAIN CSS **********************************/
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  caret-color: #fff;
+  background: linear-gradient(45deg, pink, #3d3daf);
+}
+
+.right-to-left {
+  direction: rtl;
+  font-family: 'Cairo', sans-serif, Arial, Helvetica;
+}
